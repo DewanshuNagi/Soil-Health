@@ -1,0 +1,36 @@
+# Soil Health Data Pipeline Requirements
+# Python 3.8+ required
+
+# Web Scraping Dependencies
+selenium>=4.15.0
+webdriver-manager>=4.0.0
+
+# Data Processing Dependencies
+pandas>=2.0.0
+numpy>=1.24.0
+
+# File and Path Management
+pathlib2>=2.3.7; python_version < "3.4"
+
+# Standard Library (included with Python)
+# - os
+# - time
+# - csv
+# - shutil
+# - threading
+# - logging
+# - typing
+# - re
+# - datetime
+
+# Optional: For enhanced data analysis
+# scipy>=1.10.0          # Statistical functions
+# matplotlib>=3.6.0      # Data visualization
+# seaborn>=0.12.0        # Statistical plotting
+# jupyter>=1.0.0         # Interactive analysis
+
+# Development Dependencies (optional)
+# pytest>=7.0.0          # Testing framework
+# black>=23.0.0          # Code formatting
+# flake8>=6.0.0          # Code linting
+# mypy>=1.0.0            # Type checking
